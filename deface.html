@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked By FR3D2Y</title>
+    <link rel="shortcut icon" href="logo.png">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: red;
+        }
+        section#hacked{
+            width:99.5%;
+            height: 99.5vh;
+            margin:auto;
+            background-color: #2d2d2d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div.profile{
+            width:18rem;
+            position: relative;
+        }
+        div.profile div.img{
+            width:100%;
+            height:161px;
+            display: flex;
+            justify-content: center;
+            margin:1rem 0;
+        }
+        div.img img{
+            width:151px;
+            border-radius: 50%;
+            animation-name: ls;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        div.profile h2{
+            text-align: center;
+            font-weight: 500;
+            background-color: red;
+        }
+        div.profile h2:before{
+            content:"";
+            border:13px solid #2d2d2d;
+            border-right-color: #ff0000;
+            border-left-width: 1px;
+            position: absolute;
+            left:-3px;
+            padding:1px;
+        }
+        div.profile h2:after{
+            content:"";
+            border:13px solid #2d2d2d;
+            border-left-color: #ff0000;
+            border-right-width: 1px;
+            position: absolute;
+            right:-3px;
+            padding:1px;
+        }
+        h2 span.white{
+            color:#fff;
+            font-weight: 600;
+        }
+        h2 span.aqua{
+            color:#00ffff;
+            text-shadow: 1px 1px #fff;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        div.dis{
+            margin:1rem 0;
+        }
+        div.dis h4{
+            color:#ff0000;
+            text-align: center;
+            animation-name: ygr;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ygr {
+            0%{
+                color:yellow;
+            }34%{
+                color:green;
+            }67%{
+                color:red;
+            }100%{
+                color:yellow;
+            }
+        }
+        @keyframes ls {
+            from{
+                width:150px;
+            }to{
+                width:160px;
+            }
+        }
+        marquee{
+            color:#00ffff;
+            border-top:1px solid #fff;
+            border-bottom: 1px solid #fff;
+            margin:1rem 0;
+            padding:2px;
+        }
+    </style>
+</head>
+<body>
+    <section id="hacked">
+        <div class="profile">
+            <div class="img">
+                <img src="profile.png" alt="FR3D2Y Profile">
+            </div>
+            <h2><span class="white">Hacked</span> By <span class="aqua">FR3D2Y</span></h2>
+            <div class="dis">
+                <h4>It takes for one week <br>if you memorize something!<br>
+                But It takes for the whole life <br>if you study that!</h4>
+                <marquee direction="rtl">It takes for one week if you memorize something! But it takes for the whole life if you study that!</marquee>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
